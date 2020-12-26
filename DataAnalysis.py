@@ -33,9 +33,6 @@ class assignment3(object):
         else:
             print("Please select from options given.")
         self.__init__()
-            
-    def main(self):
-        pass
     
     def solution1(self):
         df = pd.read_csv('Effects-of-COVID-19-on-trade-1-February-21-October-2020-provisional.csv').dropna()
